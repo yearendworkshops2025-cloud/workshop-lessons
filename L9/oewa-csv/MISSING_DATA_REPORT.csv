@@ -1,0 +1,289 @@
+category;month;id;name;type;data_visibility_flags;reason
+einzelangebot;2021-11-01;50;tv-media.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2022-01-01;13;gastronews.wien - Gastro News Wien;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2022-01-01;152;minimed.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2022-02-01;38;kosmo.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2022-02-01;94;servustv.com;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2022-03-01;50;tv-media.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2022-05-01;42;netdoktor.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2022-06-01;42;netdoktor.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2022-07-01;61;fussballoesterreich.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2022-07-01;189;oefb.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2022-08-01;61;fussballoesterreich.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2022-08-01;139;uwz.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2022-08-01;140;wetter.tv;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2022-08-01;189;oefb.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2022-09-01;152;minimed.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-02-01;19;falstaff.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-02-01;38;kosmo.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-03-01;38;kosmo.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-05-01;50;tv-media.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-09-01;112;atv.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-09-01;113;prosieben.at - ProSieben.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-09-01;114;puls4.com;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-09-01;115;sat1.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-09-01;116;sixx.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-09-01;117;songtexte.com;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-09-01;118;wetter.com;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-09-01;454;automotive.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-09-01;455;die-wirtschaft.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-09-01;456;gast.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-09-01;457;handwerkundbau.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-09-01;458;trafikantenzeitung.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-09-01;494;exxpress.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-10-01;49;trend.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-10-01;64;nachrichten.at - Nachrichten.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-10-01;179;krone.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-10-01;494;exxpress.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-11-01;74;kochbar.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-11-01;75;rtl.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-11-01;76;vip.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-11-01;78;tvnow.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-11-01;816;falstaff.com;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-11-01;1153;joyn.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-12-01;74;kochbar.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-12-01;75;rtl.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-12-01;76;vip.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-12-01;78;tvnow.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2023-12-01;816;falstaff.com;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;13;gastro.news - Gastro News;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;18;elektro.at ;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;38;kosmo.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;74;kochbar.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;75;rtl.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;76;vip.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;78;tvnow.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;107;laola1.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;117;songtexte.com;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;128;k.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;129;profil.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;131;events.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;132;film.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;133;futurezone.at - FUTUREZONE.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;134;kurier.at - KURIER.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;135;motor.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;146;tvheute.at - das TV-Magazin;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;188;tele.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;416;freizeit.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-01-01;601;styleupyourlife.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-02-01;13;gastro.news - Gastro News;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-02-01;38;kosmo.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-02-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-02-01;74;kochbar.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-02-01;75;rtl.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-02-01;76;vip.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-02-01;78;tvnow.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-02-01;146;tvheute.at - das TV-Magazin;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-02-01;601;styleupyourlife.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-02-01;816;falstaff.com;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-03-01;13;gastro.news - Gastro News;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-03-01;46;autorevue.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-03-01;47;gusto.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-03-01;48;news.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-03-01;49;trend.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-03-01;50;tv-media.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-03-01;51;woman.at ;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-03-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-03-01;601;styleupyourlife.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-04-01;13;gastro.news - Gastro News;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-04-01;46;autorevue.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-04-01;47;gusto.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-04-01;48;news.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-04-01;49;trend.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-04-01;50;tv-media.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-04-01;51;woman.at ;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-04-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-04-01;494;exxpress.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-05-01;13;gastro.news - Gastro News;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-05-01;46;autorevue.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-05-01;49;trend.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-05-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-06-01;13;gastro.news - Gastro News;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-06-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-06-01;128;k.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-07-01;13;gastro.news - Gastro News;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-07-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-07-01;81;sn.at - Salzburger Nachrichten;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-08-01;13;gastro.news - Gastro News;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-08-01;46;autorevue.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-08-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-09-01;13;gastro.news - Gastro News;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-09-01;18;elektro.at ;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-09-01;46;autorevue.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-09-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-10-01;13;gastro.news - Gastro News;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-10-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-11-01;13;gastro.news - Gastro News;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-11-01;57;oe24.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-11-01;58;wetter.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-11-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-12-01;13;gastro.news - Gastro News;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2024-12-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2025-01-01;81;sn.at - Salzburger Nachrichten;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2025-01-01;601;styleupyourlife.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2025-07-01;38;kosmo.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2025-08-01;38;kosmo.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2025-08-01;1601;5min.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2025-09-01;391;yesss.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2025-09-01;1601;5min.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2025-10-01;47;gusto.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+einzelangebot;2025-10-01;391;yesss.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2021-11-01;50;tv-media.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2022-01-01;152;minimed.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2022-02-01;94;servustv.com;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2022-03-01;50;tv-media.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2022-07-01;30;Fussballoesterreich.at Dachangebot;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2022-07-01;189;oefb.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2022-07-01;61;fussballoesterreich.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2022-08-01;30;Fussballoesterreich.at Dachangebot;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2022-08-01;189;oefb.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2022-08-01;61;fussballoesterreich.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2022-08-01;49;UBIMET Netzwerk;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2022-08-01;140;wetter.tv;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2022-08-01;139;uwz.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2022-09-01;152;minimed.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-05-01;50;tv-media.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-09-01;43;SevenOne Interactive Network;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-09-01;118;wetter.com;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-09-01;117;songtexte.com;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-09-01;116;sixx.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-09-01;115;sat1.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-09-01;114;puls4.com;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-09-01;113;prosieben.at - ProSieben.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-09-01;112;atv.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-09-01;115;Österreichischer Wirtschaftsverlag;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-09-01;458;trafikantenzeitung.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-09-01;457;handwerkundbau.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-09-01;456;gast.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-09-01;455;die-wirtschaft.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-09-01;454;automotive.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-10-01;24;krone.at Gesamtangebot;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-10-01;179;krone.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-10-01;49;trend.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-10-01;31;OÖNachrichten Online Netzwerk;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-10-01;64;nachrichten.at - Nachrichten.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-11-01;34;IP Österreich Gesamt;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-11-01;78;tvnow.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-11-01;76;vip.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-11-01;75;rtl.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-11-01;74;kochbar.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-11-01;1153;joyn.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-12-01;34;IP Österreich Gesamt;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-12-01;78;tvnow.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-12-01;76;vip.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-12-01;75;rtl.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2023-12-01;74;kochbar.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;32;ORF.at Network;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;34;IP Österreich Gesamt;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;78;tvnow.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;76;vip.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;75;rtl.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;74;kochbar.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;41;LAOLA1 Netzwerk;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;107;laola1.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;117;songtexte.com;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;44;tele.at - Das österreichische Programmmagazin;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;188;tele.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;47;KURIER ONLINE-Medien;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;416;freizeit.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;135;motor.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;134;kurier.at - KURIER.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;133;futurezone.at - FUTUREZONE.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;132;film.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;131;events.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;129;profil.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-01-01;128;k.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-02-01;32;ORF.at Network;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-02-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-02-01;34;IP Österreich Gesamt;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-02-01;78;tvnow.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-02-01;76;vip.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-02-01;75;rtl.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-02-01;74;kochbar.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-03-01;27;VGN Digital Dachangebot;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-03-01;51;woman.at ;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-03-01;50;tv-media.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-03-01;49;trend.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-03-01;48;news.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-03-01;47;gusto.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-03-01;46;autorevue.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-03-01;32;ORF.at Network;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-03-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-04-01;27;VGN Digital Dachangebot;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-04-01;51;woman.at ;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-04-01;50;tv-media.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-04-01;49;trend.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-04-01;48;news.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-04-01;47;gusto.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-04-01;46;autorevue.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-04-01;32;ORF.at Network;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-04-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-05-01;27;VGN Digital Dachangebot;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-05-01;49;trend.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-05-01;46;autorevue.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-05-01;32;ORF.at Network;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-05-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-06-01;32;ORF.at Network;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-06-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-06-01;128;k.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-07-01;32;ORF.at Network;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-07-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-07-01;35;Salzburger Nachrichten - Online Netzwerk;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-07-01;81;sn.at - Salzburger Nachrichten;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-08-01;46;autorevue.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-08-01;32;ORF.at Network;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-08-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-09-01;46;autorevue.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-09-01;32;ORF.at Network;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-09-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-10-01;32;ORF.at Network;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-10-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-11-01;29;oe24-Netzwerk;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-11-01;58;wetter.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-11-01;57;oe24.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-11-01;32;ORF.at Network;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-11-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-12-01;32;ORF.at Network;mediahouse;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2024-12-01;67;orf.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2025-01-01;35;Salzburger Nachrichten - Online Netzwerk;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2025-01-01;81;sn.at - Salzburger Nachrichten;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2025-10-01;47;gusto.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+dach-marken;2025-10-01;270;Heute.at - Dachangebot;mediahouse;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2022-05-01;42;netdoktor.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2022-06-01;42;netdoktor.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2023-02-01;19;falstaff.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2023-10-01;64;nachrichten.at - Nachrichten.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2023-11-01;816;falstaff.com;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2023-11-01;78;tvnow.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2023-11-01;76;vip.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2023-11-01;75;rtl.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2023-11-01;74;kochbar.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2023-12-01;816;falstaff.com;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2023-12-01;78;tvnow.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2023-12-01;76;vip.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2023-12-01;75;rtl.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2023-12-01;74;kochbar.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-01-01;146;tvheute.at - das TV-Magazin;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-01-01;78;tvnow.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-01-01;76;vip.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-01-01;75;rtl.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-01-01;74;kochbar.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-01-01;601;styleupyourlife.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-01-01;188;tele.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-02-01;146;tvheute.at - das TV-Magazin;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-02-01;816;falstaff.com;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-02-01;78;tvnow.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-02-01;76;vip.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-02-01;75;rtl.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-02-01;74;kochbar.de;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-02-01;601;styleupyourlife.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-03-01;601;styleupyourlife.at;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2024-07-01;81;sn.at - Salzburger Nachrichten;service;7;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2025-01-01;81;sn.at - Salzburger Nachrichten;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2025-01-01;601;styleupyourlife.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2025-08-01;1601;5min.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2025-09-01;1601;5min.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2025-09-01;391;yesss.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API
+adnetwork;2025-10-01;391;yesss.at;service;11;DATA_NOT_AVAILABLE_FROM_OEWA_API

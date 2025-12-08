@@ -1,0 +1,16 @@
+Employee_ID,Name,Department,Position,Hire_Date,Salary,City,Years_Experience
+E001,Anna Schmidt,Engineering,Senior Developer,2019-03-15,75000,Vienna,8
+E002,Marco Rossi,Marketing,Marketing Manager,2020-06-01,65000,Milan,6
+E003,Emma Wilson,Engineering,Developer,2021-01-10,55000,London,3
+E004,Lucas Mueller,Sales,Sales Rep,2020-09-20,48000,Munich,4
+E005,Sofia Garcia,HR,HR Specialist,2018-04-05,52000,Madrid,7
+E006,Jan Kowalski,Engineering,Tech Lead,2017-08-12,85000,Warsaw,10
+E007,Marie Dupont,Finance,Financial Analyst,2019-11-30,62000,Paris,5
+E008,Peter Johansson,Engineering,Developer,2022-02-14,50000,Stockholm,2
+E009,Elena Petrova,Marketing,Content Writer,2021-07-20,45000,Prague,3
+E010,Thomas Weber,Sales,Sales Manager,2016-05-18,78000,Berlin,12
+E011,Lisa Anderson,Engineering,QA Engineer,2020-03-25,58000,Amsterdam,4
+E012,Antonio Silva,Finance,Accountant,2019-09-01,54000,Lisbon,5
+E013,Katarina Novak,HR,HR Manager,2018-01-15,68000,Zagreb,8
+E014,Henrik Nielsen,Engineering,DevOps Engineer,2021-04-10,65000,Copenhagen,4
+E015,Isabelle Martin,Marketing,Brand Manager,2017-12-01,72000,Brussels,9
