@@ -30,6 +30,7 @@ This workshop is designed for **non-technical users** who want to learn coding w
 | **L3.1** | Playwright MCP | Install browser automation |
 | **L3.2** | Chrome DevTools MCP | Install debugging tools |
 | **L3.3** | Plugins & Skills | Marketplace, MCPs, and creating skills |
+| **L3.4** | Create Your Own MCP | Build an MCP server with SimpleMessage API |
 | **L4** | Debug & Optimize | Planning Mode and improving your game |
 | **L5** | Your Own Game | Create any game you want! |
 | **L6** | Website Creation | Build and publish a one-page website |

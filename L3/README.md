@@ -65,3 +65,4 @@ An HTML file that you can open in a browser and play immediately!
 - **L3.1** - Install Playwright MCP for browser automation
 - **L3.2** - Install Chrome DevTools MCP for debugging
 - **L3.3** - Explore the Plugin Marketplace
+- **L3.4** - Create Your Own MCP Server
