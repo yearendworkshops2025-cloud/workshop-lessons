@@ -18,13 +18,22 @@ if ! command -v pandoc &> /dev/null; then
     brew install pandoc
 fi
 
-# Convert MD to HTML with pandoc
+# Convert MD to HTML with pandoc (no external CSS - we inline it)
 # Note: No --metadata title to avoid duplicate h1
-# Images are referenced by path (not embedded) since we're hosted on GitHub Pages
 pandoc "$INPUT" \
     --standalone \
-    --css="$CSS" \
     -o "$OUTPUT"
+
+# Inline CSS directly into the HTML (no caching issues)
+CSS_CONTENT=$(cat "$CSS")
+python3 << PYEOF
+css = '''$CSS_CONTENT'''
+with open('$OUTPUT', 'r') as f:
+    html = f.read()
+html = html.replace('</head>', '<style>' + css + '</style>\n</head>', 1)
+with open('$OUTPUT', 'w') as f:
+    f.write(html)
+PYEOF
 
 # Make all external links open in new tab
 sed -i '' 's/<a href="http/<a target="_blank" rel="noopener" href="http/g' "$OUTPUT"
