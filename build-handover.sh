@@ -53,10 +53,11 @@ pre{position:relative}
 pre .copy-code{position:absolute;top:4px;right:4px;background:#36c;color:white;border:none;padding:4px 8px;border-radius:3px;cursor:pointer;font-size:11px;opacity:0.7}
 pre .copy-code:hover{opacity:1}
 pre:hover .copy-code{opacity:0.9}
+pre .copy-code.copy-full{background:#5a3;border:1px dashed #fff}
 </style>
 <script>
 function copyAll(){const content=document.body.innerText;navigator.clipboard.writeText(content).then(()=>{const btn=document.getElementById("copy-btn");btn.textContent="Copied!";btn.style.background="#14866d";setTimeout(()=>{btn.textContent="Copy All";btn.style.background="#36c";},2000);}).catch(err=>alert("Copy failed: "+err));}
-document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll("pre").forEach(pre=>{const btn=document.createElement("button");btn.className="copy-code";btn.textContent="Copy";btn.onclick=()=>{const code=pre.querySelector("code")||pre;const isMarkdown=code.classList.contains("language-markdown");let text=code.innerText;if(!isMarkdown){text=text.split("\\n").filter(line=>!line.trim().startsWith("#")).join("\\n").trim();}navigator.clipboard.writeText(text).then(()=>{btn.textContent="Copied!";btn.style.background="#14866d";setTimeout(()=>{btn.textContent="Copy";btn.style.background="#36c";},1500);});};pre.appendChild(btn);});});
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll("pre").forEach(pre=>{const code=pre.querySelector("code")||pre;const isMarkdown=code.classList.contains("language-markdown");const btn=document.createElement("button");btn.className=isMarkdown?"copy-code copy-full":"copy-code";btn.textContent=isMarkdown?"Copy All":"Copy";btn.onclick=()=>{let text=code.innerText;if(!isMarkdown){text=text.split("\\n").filter(line=>!line.trim().startsWith("#")).join("\\n").trim();}navigator.clipboard.writeText(text).then(()=>{btn.textContent="Copied!";btn.style.background="#14866d";setTimeout(()=>{btn.textContent=isMarkdown?"Copy All":"Copy";btn.style.background=isMarkdown?"#5a3":"#36c";},1500);});};pre.appendChild(btn);});});
 </script>
 INJECT_EOF
 
