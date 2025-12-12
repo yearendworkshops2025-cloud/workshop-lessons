@@ -6,8 +6,8 @@ INPUT="HANDOVER.md"
 OUTPUT="HANDOVER.html"
 CSS="handover-style.css"
 
-# Social media / OG settings
-OG_TITLE="Workshop Takeaways & Home Setup Guide"
+# Social media / OG settings (use &amp; for ampersand in HTML)
+OG_TITLE="Workshop Takeaways and Home Setup Guide"
 OG_DESC="Franz Enzenhofer Vibe Coding Workshop - Learn to build with AI using Claude Code and OpenAI Codex"
 OG_IMAGE="https://yearendworkshops2025-cloud.github.io/workshop-lessons/images/vibe-coding-workflow.png"
 OG_URL="https://yearendworkshops2025-cloud.github.io/workshop-lessons/HANDOVER.html"
