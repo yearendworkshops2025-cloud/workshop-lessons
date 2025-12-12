@@ -18,11 +18,11 @@ if ! command -v pandoc &> /dev/null; then
     brew install pandoc
 fi
 
-# Convert MD to HTML with pandoc, embedding the CSS
+# Convert MD to HTML with pandoc
 # Note: No --metadata title to avoid duplicate h1
+# Images are referenced by path (not embedded) since we're hosted on GitHub Pages
 pandoc "$INPUT" \
     --standalone \
-    --embed-resources \
     --css="$CSS" \
     -o "$OUTPUT"
 
