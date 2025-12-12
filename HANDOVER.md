@@ -378,45 +378,107 @@ There are 3 ways to add capabilities to your AI assistant. Each works differentl
 
 **What:** MCPs are external servers that give your AI new superpowers - like controlling browsers, accessing databases, or connecting to external services.
 
-**Popular MCPs:**
+---
 
-- **Playwright** - Control web browsers, take screenshots, automate testing
-- **Puppeteer** - Alternative browser automation
-- **Filesystem** - Enhanced file operations
-- **Database connectors** - PostgreSQL, MySQL, SQLite
+### Workshop Recommended MCPs
 
-**How to install an MCP:**
+#### 1. Playwright MCP (Browser Automation)
 
-**Step 1:** Tell the AI what you want:
+**What it does:** Control web browsers automatically - take screenshots, fill forms, click buttons, scrape data.
+
+**Install via CLI (recommended):**
+```bash
+claude mcp add playwright -- npx @playwright/mcp@latest
 ```
-Install the Playwright MCP for browser automation
+
+**Or tell the AI:**
+```
+Install the Playwright MCP from https://github.com/microsoft/playwright-mcp
 ```
 
-**Step 2:** The AI will add it to your config. Then you MUST restart:
+**Then restart Claude Code:**
 ```
 /exit
 ```
-
-**Step 3:** Start Claude Code again:
 ```bash
 claude
 ```
 
-**Step 4:** Verify it's working:
-```
-Show me what MCPs are installed
-```
-
-**Example uses after installing Playwright MCP:**
+**Example uses:**
 ```
 Take a screenshot of google.com
 ```
 ```
-Fill out the login form on mysite.com with test credentials
+Fill out the login form on mysite.com
 ```
 ```
 Scrape all product prices from this shopping page
 ```
+
+**GitHub:** [github.com/microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)
+
+---
+
+#### 2. Chrome DevTools MCP (Website Debugging)
+
+**What it does:** Debug websites directly from Claude Code - inspect elements, view console errors, monitor network requests.
+
+**Install via CLI:**
+```bash
+claude mcp add chrome-devtools -- npx chrome-devtools-mcp@latest
+```
+
+**Or tell the AI:**
+```
+Install the Chrome DevTools MCP
+```
+
+**Then restart Claude Code:**
+```
+/exit
+```
+```bash
+claude
+```
+
+**Example uses:**
+```
+Open DevTools and inspect my website
+```
+```
+Show me the console errors on this page
+```
+```
+Check what network requests this page is making
+```
+
+**GitHub:** [github.com/anthropics/claude-code-devtools](https://github.com/anthropics/claude-code-devtools)
+
+---
+
+#### 3. SimpleMessage MCP (Custom - from workshop)
+
+**What it does:** Send and receive messages via the SimpleMessage API - a demo of creating your own MCP.
+
+**API Documentation:** [simplemessage.franzai.com/api/docs](https://simplemessage.franzai.com/api/docs)
+
+**Tell the AI to create it:**
+```
+Create an MCP server for SimpleMessage. Read the API docs at https://simplemessage.franzai.com/api/docs and create an MCP that can post and read messages.
+```
+
+---
+
+### Quick MCP Commands Reference
+
+| Command | What it does |
+|---------|--------------|
+| `claude mcp add NAME -- COMMAND` | Install an MCP |
+| `claude mcp list` | List installed MCPs |
+| `claude mcp remove NAME` | Remove an MCP |
+| `/mcp` | Interactive MCP menu (inside Claude Code) |
+
+**Important:** After installing any MCP, you MUST restart Claude Code with `/exit` then `claude`
 
 **Official MCP docs:** [modelcontextprotocol.io](https://modelcontextprotocol.io)
 
