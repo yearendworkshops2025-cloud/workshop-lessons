@@ -300,6 +300,7 @@ Deploy this app to Vercel
 ## Part 4: What You Learned (Quick Reference)
 
 ### Terminal Basics
+
 | Command | What it does | How to remember |
 |---------|--------------|-----------------|
 | `pwd` | Shows current folder | "Print Working Directory" |
@@ -313,6 +314,7 @@ Deploy this app to Vercel
 ---
 
 ### Inside Claude Code
+
 | Command | What it does |
 |---------|--------------|
 | `/help` | Show all commands |
@@ -330,6 +332,7 @@ Deploy this app to Vercel
 ### Git Essentials
 
 **Just tell the AI what you want:**
+
 | What you want | Say this |
 |---------------|----------|
 | See what changed | "What files did I change?" |
