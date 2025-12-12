@@ -56,7 +56,7 @@ pre:hover .copy-code{opacity:0.9}
 </style>
 <script>
 function copyAll(){const content=document.body.innerText;navigator.clipboard.writeText(content).then(()=>{const btn=document.getElementById("copy-btn");btn.textContent="Copied!";btn.style.background="#14866d";setTimeout(()=>{btn.textContent="Copy All";btn.style.background="#36c";},2000);}).catch(err=>alert("Copy failed: "+err));}
-document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll("pre").forEach(pre=>{const btn=document.createElement("button");btn.className="copy-code";btn.textContent="Copy";btn.onclick=()=>{const code=pre.querySelector("code")||pre;navigator.clipboard.writeText(code.innerText).then(()=>{btn.textContent="Copied!";btn.style.background="#14866d";setTimeout(()=>{btn.textContent="Copy";btn.style.background="#36c";},1500);});};pre.appendChild(btn);});});
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll("pre").forEach(pre=>{const btn=document.createElement("button");btn.className="copy-code";btn.textContent="Copy";btn.onclick=()=>{const code=pre.querySelector("code")||pre;const isMarkdown=code.classList.contains("language-markdown");let text=code.innerText;if(!isMarkdown){text=text.split("\\n").filter(line=>!line.trim().startsWith("#")).join("\\n").trim();}navigator.clipboard.writeText(text).then(()=>{btn.textContent="Copied!";btn.style.background="#14866d";setTimeout(()=>{btn.textContent="Copy";btn.style.background="#36c";},1500);});};pre.appendChild(btn);});});
 </script>
 INJECT_EOF
 

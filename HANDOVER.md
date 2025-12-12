@@ -24,14 +24,19 @@ After this workshop, you can:
 ### Install Claude Code
 
 **Mac (choose one):**
+
+Option 1 - Install script (recommended):
 ```bash
-# Option 1: Install script (recommended)
 curl -fsSL https://claude.ai/install.sh | bash
+```
 
-# Option 2: Homebrew
+Option 2 - Homebrew:
+```bash
 brew install --cask claude-code
+```
 
-# Option 3: npm (requires Node.js 18+)
+Option 3 - npm (requires Node.js 18+):
+```bash
 npm install -g @anthropic-ai/claude-code
 ```
 
@@ -47,11 +52,14 @@ irm https://claude.ai/install.ps1 | iex
 ### Install OpenAI Codex (Alternative)
 
 **Mac/Linux (choose one):**
-```bash
-# Option 1: npm (requires Node.js 18+)
-npm install -g @openai/codex
 
-# Option 2: Homebrew (Mac only)
+Option 1 - npm (requires Node.js 18+):
+```bash
+npm install -g @openai/codex
+```
+
+Option 2 - Homebrew (Mac only):
+```bash
 brew install --cask codex
 ```
 
