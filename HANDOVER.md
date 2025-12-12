@@ -288,6 +288,7 @@ Deploy this app to Vercel
 ### Command Line Email (Optional)
 **What:** Send/receive email from terminal
 **Why useful:**
+
 - Automate email responses
 - Monitor inbox with scripts
 - No GUI needed for server tasks
@@ -611,11 +612,13 @@ Start simple, add complexity:
 ## Quick Reference Card
 
 ### Start AI Coding (type in terminal)
+
 - `claude` → Start Claude Code
 - `claude --dangerously-skip-permissions` → YOLO mode
 - `codex --yolo` → Codex YOLO mode
 
 ### Navigate (before AI is running)
+
 - `cd folder` → Go to folder
 - `cd ..` → Go back
 - `pwd` → Where am I?
@@ -623,12 +626,14 @@ Start simple, add complexity:
 - `TAB` → Autocomplete!
 
 ### Tell The AI (once running)
+
 - "Commit my changes to GitHub"
 - "Push to GitHub for backup"
 - "Undo my last change"
 - "Deploy this to Vercel"
 
 ### Slash Commands (inside Claude Code)
+
 - `/help` → Show commands
 - `/init` → Create CLAUDE.md
 - `/compact` → Save memory
@@ -637,6 +642,7 @@ Start simple, add complexity:
 - `/exit` → Exit (needed after installing MCP)
 
 ### Remember
+
 - Tell AI to commit before risky changes (you can always go back!)
 - Never put API keys in code pushed to GitHub
 - Just tell the AI what you want - that's what it's for!
