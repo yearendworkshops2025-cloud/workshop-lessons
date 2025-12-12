@@ -211,7 +211,7 @@ Or ask the AI: "Create a global CLAUDE.md (or AGENTS.md) file for me with my pre
 ## Debugging Rules
 - Always check console/terminal for errors first
 - Use console.log() or print() to trace issues
-- Write errors, stats, and debug info to log files (e.g., debug.log, error.log) so the AI can read and analyze them
+- Write debug info to log files so AI can read them
 - Read error messages carefully - they tell you what's wrong
 - Google the exact error message if stuck
 
