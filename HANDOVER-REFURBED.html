@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>refurbed AI Workshop - Handover Guide</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+<style>/* Wikipedia-like minimal CSS for HANDOVER.html */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #222;
+    background: #fff;
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+        font-size: 15px;
+    }
+    pre {
+        padding: 10px;
+        font-size: 13px;
+    }
+    table {
+        font-size: 14px;
+    }
+    th, td {
+        padding: 6px 8px;
+    }
+}
+h1 { border-bottom: 1px solid #a2a9b1; padding-bottom: 0.3em; }
+h2 { border-bottom: 1px solid #eaecf0; padding-bottom: 0.2em; margin-top: 1.5em; }
+h3 { margin-top: 1.2em; }
+h4 { margin-top: 1em; color: #444; }
+code {
+    background: #f8f9fa;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: "SF Mono", Monaco, "Courier New", monospace;
+    font-size: 0.9em;
+}
+pre {
+    background: #f8f9fa;
+    padding: 12px 16px;
+    border-radius: 4px;
+    overflow-x: auto;
+    border-left: 3px solid #36c;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code { background: none; padding: 0; white-space: pre-wrap; word-wrap: break-word; }
+table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+th, td { border: 1px solid #a2a9b1; padding: 8px 12px; text-align: left; }
+th { background: #f8f9fa; }
+a { color: #0645ad; text-decoration: underline; }
+a:hover { color: #0b0080; }
+a:visited { color: #0b0080; }
+blockquote {
+    border-left: 3px solid #c8ccd1;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    background: #f8f9fa;
+}
+hr { border: none; border-top: 1px solid #eaecf0; margin: 2em 0; }
+ul, ol { padding-left: 1.5em; }
+/* refurbed brand accent */
+.brand-accent { color: #00a67d; }
+</style>
+<meta property="og:type" content="website">
+<meta property="og:title" content="refurbed AI Workshop - Handover Guide">
+<meta property="og:description" content="refurbed AI & Automation Workshop - Learn to build with AI using Claude Code and OpenAI Codex">
+<meta property="og:image" content="https://yearendworkshops2025-cloud.github.io/workshop-lessons/images/vibe-coding-workflow.png">
+<meta property="og:url" content="https://yearendworkshops2025-cloud.github.io/workshop-lessons/HANDOVER.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="refurbed AI Workshop - Handover Guide">
+<meta name="twitter:description" content="refurbed AI & Automation Workshop - Learn to build with AI using Claude Code and OpenAI Codex">
+<meta name="twitter:image" content="https://yearendworkshops2025-cloud.github.io/workshop-lessons/images/vibe-coding-workflow.png">
+<meta name="description" content="refurbed AI & Automation Workshop - Learn to build with AI using Claude Code and OpenAI Codex">
+</head>
+<body>
+<div id="copy-container" style="background:#f8f9fa;border:1px solid #a2a9b1;padding:12px 16px;margin:0 0 20px 0;border-radius:4px;display:flex;justify-content:space-between;align-items:center;"><span style="color:#222;font-size:14px;">Copy this entire guide and paste into Claude Code or Codex</span><button id="copy-btn" onclick="copyAll()" style="background:#00a67d;color:white;border:none;padding:8px 16px;border-radius:3px;cursor:pointer;font-size:14px;">Copy All</button></div>
+<style>
+pre{position:relative}
+pre .copy-code{position:absolute;top:4px;right:4px;background:#00a67d;color:white;border:none;padding:4px 8px;border-radius:3px;cursor:pointer;font-size:11px;opacity:0.7}
+pre .copy-code:hover{opacity:1}
+pre:hover .copy-code{opacity:0.9}
+pre .copy-code.copy-full{background:#5a3}
+</style>
+<script>
+function copyAll(){const content=document.body.innerText;navigator.clipboard.writeText(content).then(()=>{const btn=document.getElementById("copy-btn");btn.textContent="Copied!";btn.style.background="#14866d";setTimeout(()=>{btn.textContent="Copy All";btn.style.background="#00a67d";},2000);}).catch(err=>alert("Copy failed: "+err));}
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll("pre").forEach(pre=>{const code=pre.querySelector("code")||pre;const isMarkdown=code.classList.contains("sourceCode")&&code.classList.contains("markdown");const btn=document.createElement("button");btn.className=isMarkdown?"copy-code copy-full":"copy-code";btn.textContent=isMarkdown?"Copy All":"Copy";btn.onclick=()=>{let text=code.innerText;if(!isMarkdown){text=text.split("\n").filter(line=>!line.trim().startsWith("#")).join("\n").trim();}navigator.clipboard.writeText(text).then(()=>{btn.textContent="Copied!";btn.style.background="#14866d";setTimeout(()=>{btn.textContent=isMarkdown?"Copy All":"Copy";btn.style.background=isMarkdown?"#5a3":"#00a67d";},1500);});};pre.appendChild(btn);});});
+</script>
+
+<h1 id="workshop-takeaways-home-setup-guide">refurbed AI Workshop - Handover Guide</h1>
+<p><strong>Created:</strong> January 22, 2026<br>
+<strong>Workshop:</strong> refurbed AI & Automation Workshop by Franz Enzenhofer</p>
+<hr />
+<h2 id="what-you-can-now-do">What You Can Now Do</h2>
+<figure>
+<img src="images/vibe-coding-workflow.png" alt="Vibe Coding Workflow" />
+<figcaption aria-hidden="true">Vibe Coding Workflow</figcaption>
+</figure>
+<p>After this workshop, you can:</p>
+<ul>
+<li><strong>Build websites and games</strong> using AI as your coding partner</li>
+<li><strong>Publish projects online</strong> for free using GitHub + Vercel</li>
+<li><strong>Process documents and data</strong> (PDFs, spreadsheets, web scraping)</li>
+<li><strong>Automate tasks</strong> (email monitoring, scheduled scripts)</li>
+<li><strong>Extend AI capabilities</strong> with MCPs, plugins, and custom skills</li>
+</ul>
+<hr />
+<h2 id="part-1-setting-up-at-home">Part 1: Setting Up At Home</h2>
+<h3 id="install-claude-code">Install Claude Code</h3>
+<p><strong>Mac (choose one):</strong></p>
+<p>Option 1 - Install script (recommended):</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-fsSL</span> https://claude.ai/install.sh <span class="kw">|</span> <span class="fu">bash</span></span></code></pre></div>
+<p>Option 2 - Homebrew:</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install <span class="at">--cask</span> claude-code</span></code></pre></div>
+<p>Option 3 - npm (requires Node.js 18+):</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> install <span class="at">-g</span> @anthropic-ai/claude-code</span></code></pre></div>
+<p><strong>Windows (PowerShell):</strong></p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode powershell"><code class="sourceCode powershell"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">irm</span> https<span class="op">://</span>claude<span class="op">.</span><span class="fu">ai</span><span class="op">/</span>install<span class="op">.</span><span class="fu">ps1</span> <span class="op">|</span> <span class="fu">iex</span></span></code></pre></div>
+<p><strong>Official docs:</strong> <a href="https://code.claude.com/docs/en/overview">code.claude.com/docs</a></p>
+<hr />
+<h3 id="install-openai-codex-alternative">Install OpenAI Codex (Alternative)</h3>
+<p><strong>Mac/Linux (choose one):</strong></p>
+<p>Option 1 - npm (requires Node.js 18+):</p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> install <span class="at">-g</span> @openai/codex</span></code></pre></div>
+<p>Option 2 - Homebrew (Mac only):</p>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install <span class="at">--cask</span> codex</span></code></pre></div>
+<p><strong>Windows:</strong> Experimental support - use WSL (Windows Subsystem for Linux) for best results.</p>
+<p><strong>Official docs:</strong> <a href="https://github.com/openai/codex">github.com/openai/codex</a></p>
+<hr />
+<h3 id="login-options">Login Options</h3>
+<h4 id="option-a-browser-login-easiest">Option A: Browser Login (Easiest)</h4>
+<p>Just run the tool - it opens your browser to log in:</p>
+<ul>
+<li><p><strong>Claude Code:</strong></p>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">claude</span></span></code></pre></div></li>
+<li><p><strong>OpenAI Codex:</strong></p>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">codex</span></span></code></pre></div></li>
+</ul>
+<h4 id="option-b-api-key-login">Option B: API Key Login</h4>
+<p><strong>Step 1:</strong> Get your API key:</p>
+<ul>
+<li>Claude Code: <a href="https://console.anthropic.com/settings/keys">console.anthropic.com</a></li>
+<li>Codex: <a href="https://platform.openai.com/api-keys">platform.openai.com</a></li>
+</ul>
+<p><strong>Step 2:</strong> Set your API key (copy, replace YOUR_KEY_HERE, paste in terminal):</p>
+<p><strong>Mac/Linux:</strong></p>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># For Claude Code - paste this, then run claude</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">ANTHROPIC_API_KEY</span><span class="op">=</span><span class="st">"YOUR_KEY_HERE"</span></span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># For Codex - paste this, then run codex</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">OPENAI_API_KEY</span><span class="op">=</span><span class="st">"YOUR_KEY_HERE"</span></span></code></pre></div>
+<p><strong>Windows PowerShell:</strong></p>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode powershell"><code class="sourceCode powershell"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># For Claude Code - paste this, then run claude</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="va">$env</span><span class="op">:</span><span class="va">ANTHROPIC_API_KEY</span><span class="op">=</span><span class="st">"YOUR_KEY_HERE"</span></span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode powershell"><code class="sourceCode powershell"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># For Codex - paste this, then run codex</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="va">$env</span><span class="op">:</span><span class="va">OPENAI_API_KEY</span><span class="op">=</span><span class="st">"YOUR_KEY_HERE"</span></span></code></pre></div>
+<p><strong>Step 3:</strong> Now run the tool:</p>
+<ul>
+<li><p><strong>Claude Code:</strong></p>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">claude</span></span></code></pre></div></li>
+<li><p><strong>OpenAI Codex:</strong></p>
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="ex">codex</span></span></code></pre></div></li>
+</ul>
+<p><strong>Problems?</strong> Copy your error message and ask ChatGPT or Claude.ai:
+> "I'm getting this error: [paste error]. How do I fix it?"</p>
+<hr />
+<h3 id="yolo-mode-skip-permission-prompts">YOLO Mode (Skip Permission Prompts)</h3>
+<p>Copy and paste these to skip all "are you sure?" prompts:</p>
+<p><strong>Claude Code - YOLO mode:</strong></p>
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="ex">claude</span> <span class="at">--dangerously-skip-permissions</span></span></code></pre></div>
+<p><strong>Claude Code - YOLO + continue last session:</strong></p>
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">claude</span> <span class="at">--dangerously-skip-permissions</span> <span class="at">--continue</span></span></code></pre></div>
+<p><strong>Codex - Full YOLO mode:</strong></p>
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="ex">codex</span> <span class="at">--yolo</span></span></code></pre></div>
+<p><strong>Codex - Moderate mode (asks only on failures):</strong></p>
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="ex">codex</span> <span class="at">--full-auto</span></span></code></pre></div>
+<p><strong>Want shorter commands?</strong> Ask AI to create aliases for you:</p>
+<p><strong>Mac/Linux - copy and paste this prompt:</strong></p>
+<pre><code>Create permanent shell aliases for me: claude+ for Claude Code YOLO mode, claude++ for YOLO with continue, codex+ for Codex YOLO. Detect which shell I use and add them to the correct config file so they work every time I open terminal.</code></pre>
+<p><strong>Windows PowerShell - copy and paste this prompt:</strong></p>
+<pre><code>Create permanent PowerShell aliases for me: claude+ for Claude Code YOLO mode, claude++ for YOLO with continue, codex+ for Codex YOLO. Add them to my PowerShell profile so they work every time I open PowerShell.</code></pre>
+<hr />
+<h2 id="part-2-memory-file-template-claude.md-agents.md">Part 2: Memory File Template (CLAUDE.md / AGENTS.md)</h2>
+<p>This file tells AI who you are and how to work. Both tools use the same concept - just different filenames!</p>
+<p><strong>To create your memory file, just type inside the AI tool:</strong></p>
+<pre><code>/init</code></pre>
+<p>Or ask the AI: "Create a global CLAUDE.md (or AGENTS.md) file for me with my preferences."</p>
+<h3 id="starter-template-customize-for-yourself">Starter Template (Customize for Yourself)</h3>
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># My AI Coding Config</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## About Me</span></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Non-technical user learning to code with AI</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Focus: Web projects, automation, data processing</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Explain things simply, I'm still learning</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a><span class="fu">## My API Keys (KEEP PRIVATE!)</span></span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a><span class="fu"># ANTHROPIC_API_KEY=sk-ant-...</span></span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a><span class="fu"># OPENAI_API_KEY=sk-...</span></span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a><span class="fu"># GEMINI_API_KEY=AIza...</span></span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a><span class="fu"># GITHUB_TOKEN=ghp_...</span></span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a><span class="fu">## Safety Rules - ALWAYS FOLLOW</span></span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>NEVER delete entire directories - move to Trash instead</span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>ALWAYS use git commits before major changes</span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>NEVER expose API keys in code pushed to GitHub</span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>ASK before running destructive commands (rm -rf, DROP TABLE, etc.)</span>
+<span id="cb22-19"><a href="#cb22-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-20"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a><span class="fu">## Code Practices</span></span>
+<span id="cb22-21"><a href="#cb22-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Keep it simple (KISS) - readable &gt; clever</span>
+<span id="cb22-22"><a href="#cb22-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Don't repeat code (DRY) - use functions</span>
+<span id="cb22-23"><a href="#cb22-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>MODULAR - small files, small functions, easy to understand</span>
+<span id="cb22-24"><a href="#cb22-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Add comments only for complex logic</span>
+<span id="cb22-25"><a href="#cb22-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-26"><a href="#cb22-26" aria-hidden="true" tabindex="-1"></a><span class="fu">## Debugging Rules</span></span>
+<span id="cb22-27"><a href="#cb22-27" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Always check console/terminal for errors first</span>
+<span id="cb22-28"><a href="#cb22-28" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Use console.log() or print() to trace issues</span>
+<span id="cb22-29"><a href="#cb22-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Write debug info to log files so AI can read them</span>
+<span id="cb22-30"><a href="#cb22-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Read error messages carefully - they tell you what's wrong</span>
+<span id="cb22-31"><a href="#cb22-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Google the exact error message if stuck</span>
+<span id="cb22-32"><a href="#cb22-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-33"><a href="#cb22-33" aria-hidden="true" tabindex="-1"></a><span class="fu">## Git Workflow</span></span>
+<span id="cb22-34"><a href="#cb22-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Commit often with clear messages</span>
+<span id="cb22-35"><a href="#cb22-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Push to GitHub = backup!</span>
+<span id="cb22-36"><a href="#cb22-36" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Never force push to main</span>
+<span id="cb22-37"><a href="#cb22-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-38"><a href="#cb22-38" aria-hidden="true" tabindex="-1"></a><span class="fu">## Project Structure Preferences</span></span>
+<span id="cb22-39"><a href="#cb22-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Keep related files together</span>
+<span id="cb22-40"><a href="#cb22-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Use clear, descriptive names</span>
+<span id="cb22-41"><a href="#cb22-41" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>README.md in every project</span></code></pre></div>
+<p><strong>Keep it under 100 lines.</strong> The AI reads this every time - shorter = better.</p>
+<hr />
+<h2 id="part-3-services-we-used-and-why">Part 3: Services We Used (And Why)</h2>
+<h3 id="github-free">GitHub (Free)</h3>
+<figure>
+<img src="images/github-vercel-deploy.png" alt="GitHub Vercel Deploy Flow" />
+<figcaption aria-hidden="true">GitHub Vercel Deploy Flow</figcaption>
+</figure>
+<p><strong>What:</strong> Cloud storage for code
+<strong>Why we use it:</strong></p>
+<ul>
+<li><strong>Version control</strong> - Go back to any previous version if you break something</li>
+<li><strong>Backup</strong> - Your code is safe even if your computer dies</li>
+<li><strong>Free static hosting</strong> - GitHub Pages can host simple websites</li>
+<li><strong>Portfolio</strong> - Show your work to others</li>
+</ul>
+<p><strong>Just tell the AI:</strong></p>
+<pre><code>Commit my changes to GitHub with a good commit message</code></pre>
+<pre><code>Push my code to GitHub for backup</code></pre>
+<pre><code>Show me the git history / undo my last change</code></pre>
+<p><strong>Pro tip:</strong> Add this to your CLAUDE.md or AGENTS.md so the AI always remembers:</p>
+<pre><code>Always commit important changes to GitHub for backup and potential rollback.</code></pre>
+<p><strong>Get started:</strong> <a href="https://github.com">github.com</a> (sign up free)</p>
+<hr />
+<h3 id="github-pages-free---for-static-websites">GitHub Pages (Free) - For Static Websites</h3>
+<figure>
+<img src="images/static-vs-apps.png" alt="Static vs Apps Comparison" />
+<figcaption aria-hidden="true">Static vs Apps Comparison</figcaption>
+</figure>
+<p><strong>What:</strong> Free hosting for simple HTML/CSS/JS websites
+<strong>Best for:</strong> Portfolio sites, landing pages, documentation, simple projects</p>
+<p><strong>Just tell the AI:</strong></p>
+<pre><code>Publish this website to GitHub Pages</code></pre>
+<hr />
+<h3 id="vercel-free-tier---for-apps">Vercel (Free tier) - For Apps</h3>
+<p><strong>What:</strong> Free hosting for web applications with backend features
+<strong>Best for:</strong> React apps, Next.js, dynamic websites, apps with APIs</p>
+<p><strong>Just tell the AI:</strong></p>
+<pre><code>Deploy this app to Vercel</code></pre>
+<p><strong>Which one to use?</strong></p>
+<ul>
+<li><strong>Static website</strong> (just HTML/CSS/JS files) → GitHub Pages</li>
+<li><strong>App with backend/API</strong> → Vercel</li>
+</ul>
+<hr />
+<h3 id="command-line-email-optional">Command Line Email (Optional)</h3>
+<p><strong>What:</strong> Send/receive email from terminal
+<strong>Why useful:</strong></p>
+<ul>
+<li>Automate email responses</li>
+<li>Monitor inbox with scripts</li>
+<li>No GUI needed for server tasks</li>
+</ul>
+<p><strong>Tools:</strong> Himalaya CLI, mutt, or similar
+<strong>Requires:</strong> Email account credentials (app password for Gmail)</p>
+<hr />
+<h2 id="part-4-what-you-learned-quick-reference">Part 4: What You Learned (Quick Reference)</h2>
+<h3 id="terminal-basics">Terminal Basics</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>What it does</th>
+<th>How to remember</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>pwd</code></td>
+<td>Shows current folder</td>
+<td>"Print Working Directory"</td>
+</tr>
+<tr>
+<td><code>ls</code></td>
+<td>Lists files here</td>
+<td>"List Stuff"</td>
+</tr>
+<tr>
+<td><code>cd folder</code></td>
+<td>Go into folder</td>
+<td>"Change Directory"</td>
+</tr>
+<tr>
+<td><code>cd ..</code></td>
+<td>Go back one level</td>
+<td>".." means parent</td>
+</tr>
+<tr>
+<td><code>TAB</code></td>
+<td>Autocomplete!</td>
+<td>Just press TAB</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Forgot a command?</strong> Ask AI: <em>"What's the terminal command to [what you want to do]?"</em></p>
+<hr />
+<h3 id="inside-claude-code">Inside Claude Code</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/help</code></td>
+<td>Show all commands</td>
+</tr>
+<tr>
+<td><code>/init</code></td>
+<td>Create CLAUDE.md for project</td>
+</tr>
+<tr>
+<td><code>/compact</code></td>
+<td>Compress conversation (save memory)</td>
+</tr>
+<tr>
+<td><code>/clear</code></td>
+<td>Start fresh</td>
+</tr>
+<tr>
+<td><code>/cost</code></td>
+<td>Show token usage</td>
+</tr>
+<tr>
+<td><code>/model</code></td>
+<td>Switch AI model</td>
+</tr>
+<tr>
+<td><code>/mcp</code></td>
+<td>Manage MCP servers</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Context Window:</strong> AI's short-term memory. Use <code>/compact</code> when conversations get long.</p>
+<hr />
+<h3 id="git-essentials">Git Essentials</h3>
+<p><strong>Just tell the AI what you want:</strong></p>
+<table>
+<thead>
+<tr>
+<th>What you want</th>
+<th>Say this</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>See what changed</td>
+<td>"What files did I change?"</td>
+</tr>
+<tr>
+<td>Save your work</td>
+<td>"Commit my changes"</td>
+</tr>
+<tr>
+<td>Backup to GitHub</td>
+<td>"Push to GitHub"</td>
+</tr>
+<tr>
+<td>Get latest code</td>
+<td>"Pull from GitHub"</td>
+</tr>
+<tr>
+<td>See history</td>
+<td>"Show git history"</td>
+</tr>
+<tr>
+<td>Undo changes</td>
+<td>"Undo my last commit"</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Golden rule:</strong> Tell the AI to commit before trying something risky. You can always go back!</p>
+<hr />
+<h3 id="coding-principles">Coding Principles</h3>
+<figure>
+<img src="images/dry-kiss-modular.png" alt="DRY KISS MODULAR" />
+<figcaption aria-hidden="true">DRY KISS MODULAR</figcaption>
+</figure>
+<p>Add this to your CLAUDE.md or AGENTS.md so the AI writes good code:</p>
+<pre><code>Follow these coding principles:
+- DRY (Don't Repeat Yourself) - use functions instead of repeating code
+- KISS (Keep It Simple) - clear code beats clever code
+- MODULAR - small files, small functions, easy to understand</code></pre>
+<hr />
+<h3 id="extending-your-ai-mcp-vs-plugin-vs-skill">Extending Your AI: MCP vs Plugin vs Skill</h3>
+<figure>
+<img src="images/mcp-plugin-skill.png" alt="MCP Plugin Skill Types" />
+<figcaption aria-hidden="true">MCP Plugin Skill Types</figcaption>
+</figure>
+<p>There are 3 ways to add capabilities to your AI assistant. Each works differently:</p>
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 42%" />
+<col style="width: 35%" />
+</colgroup>
+<thead>
+<tr>
+<th>Type</th>
+<th>What it is</th>
+<th>Best for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MCP</strong></td>
+<td>External server adding capabilities</td>
+<td>Browser automation, databases, APIs</td>
+</tr>
+<tr>
+<td><strong>Plugin</strong></td>
+<td>Pre-built tool from marketplace</td>
+<td>Debugging, DevTools, quick installs</td>
+</tr>
+<tr>
+<td><strong>Skill</strong></td>
+<td>Custom reusable prompt you create</td>
+<td>Your own workflows, repeated tasks</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="how-to-use-mcps-model-context-protocol">How to Use MCPs (Model Context Protocol)</h3>
+<p><strong>What:</strong> MCPs are external servers that give your AI new superpowers - like controlling browsers, accessing databases, or connecting to external services.</p>
+<hr />
+<h3 id="workshop-recommended-mcp">Workshop Recommended MCP</h3>
+<h4 id="chrome-devtools-mcp-browser-automation-debugging">Chrome DevTools MCP (Browser Automation & Debugging)</h4>
+<p><strong>What it does:</strong> Control and debug websites directly from Claude Code - inspect elements, view console errors, monitor network requests, take screenshots, fill forms, click buttons, and scrape data.</p>
+<p><strong>Install via CLI:</strong></p>
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="ex">claude</span> mcp add chrome-devtools <span class="at">--</span> npx chrome-devtools-mcp@latest</span></code></pre></div>
+<p><strong>Or tell the AI:</strong></p>
+<pre><code>Install the Chrome DevTools MCP</code></pre>
+<p><strong>Then restart Claude Code:</strong></p>
+<pre><code>/exit</code></pre>
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="ex">claude</span></span></code></pre></div>
+<p><strong>Example uses:</strong></p>
+<pre><code>Open DevTools and inspect my website</code></pre>
+<pre><code>Show me the console errors on this page</code></pre>
+<pre><code>Check what network requests this page is making</code></pre>
+<pre><code>Take a screenshot of google.com</code></pre>
+<pre><code>Fill out the login form on mysite.com</code></pre>
+<pre><code>Scrape all product prices from this shopping page</code></pre>
+<p><strong>GitHub:</strong> <a href="https://github.com/anthropics/claude-code-devtools">github.com/anthropics/claude-code-devtools</a></p>
+<hr />
+<h3 id="quick-mcp-commands-reference">Quick MCP Commands Reference</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>claude mcp add NAME -- COMMAND</code></td>
+<td>Install an MCP</td>
+</tr>
+<tr>
+<td><code>claude mcp list</code></td>
+<td>List installed MCPs</td>
+</tr>
+<tr>
+<td><code>claude mcp remove NAME</code></td>
+<td>Remove an MCP</td>
+</tr>
+<tr>
+<td><code>/mcp</code></td>
+<td>Interactive MCP menu (inside Claude Code)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Important:</strong> After installing any MCP, you MUST restart Claude Code with <code>/exit</code> then <code>claude</code></p>
+<p><strong>Official MCP docs:</strong> <a href="https://modelcontextprotocol.io">modelcontextprotocol.io</a></p>
+<hr />
+<h3 id="how-to-use-plugins">How to Use Plugins</h3>
+<p><strong>What:</strong> Plugins are pre-built tools you can install from a marketplace. Easier than MCPs - no server setup needed.</p>
+<p><strong>Popular Plugins:</strong></p>
+<ul>
+<li><strong>Chrome DevTools</strong> - Debug websites directly from Claude Code</li>
+<li><strong>GitHub</strong> - Enhanced GitHub integration</li>
+<li><strong>Vercel</strong> - Deployment helpers</li>
+</ul>
+<p><strong>How to install a plugin:</strong></p>
+<p><strong>Step 1:</strong> Browse available plugins:</p>
+<pre><code>/plugins</code></pre>
+<p>or tell the AI:</p>
+<pre><code>Show me available plugins</code></pre>
+<p><strong>Step 2:</strong> Install what you need:</p>
+<pre><code>Install the Chrome DevTools plugin</code></pre>
+<p><strong>Step 3:</strong> Use it immediately (no restart needed for most plugins):</p>
+<pre><code>Open Chrome DevTools and inspect this page</code></pre>
+<p><strong>The difference from MCPs:</strong> Plugins are simpler - they're bundled and ready to use. MCPs are more powerful but need more setup.</p>
+<hr />
+<h3 id="how-to-create-skills">How to Create Skills</h3>
+<p><strong>What:</strong> Skills are custom reusable prompts YOU create. Think of them as saved instructions that the AI remembers.</p>
+<p><strong>Why create skills?</strong></p>
+<ul>
+<li>Save time on repeated tasks</li>
+<li>Ensure consistent behavior</li>
+<li>Create your own workflows</li>
+</ul>
+<p><strong>How to create a skill:</strong></p>
+<p><strong>Step 1:</strong> Tell the AI to create one:</p>
+<pre><code>Create a skill called "code-review" that reviews my code for bugs, security issues, and suggests improvements. Save it so I can use it anytime.</code></pre>
+<p><strong>Step 2:</strong> The AI creates a skill file in <code>.claude/skills/</code></p>
+<p><strong>Step 3:</strong> Use your skill anytime:</p>
+<pre><code>/code-review</code></pre>
+<p>or</p>
+<pre><code>Use the code-review skill on my current file</code></pre>
+<p><strong>Example skills to create:</strong></p>
+<pre><code>Create a skill that writes git commit messages in a consistent format</code></pre>
+<pre><code>Create a skill that generates unit tests for any function I select</code></pre>
+<pre><code>Create a skill that explains code to beginners</code></pre>
+<p><strong>Pro tip:</strong> Add to your CLAUDE.md file:</p>
+<pre><code>When I say "review this", use the code-review skill automatically.</code></pre>
+<hr />
+<h3 id="api-key-security">API Key Security</h3>
+<p><strong>Tell the AI:</strong></p>
+<pre><code>Never put API keys directly in code. Use environment variables and keep them safe.</code></pre>
+<p><strong>Pro tip:</strong> Add this to your CLAUDE.md or AGENTS.md so the AI always remembers:</p>
+<pre><code>Never expose API keys in code. Always use environment variables and add .env to .gitignore.</code></pre>
+<hr />
+<h2 id="part-5-how-to-continue-learning">Part 5: How to Continue Learning</h2>
+<h3 id="just-tell-the-ai-to-do-it">Just Tell The AI To Do It</h3>
+<p><strong>Don't ask how - just tell it what you want:</strong></p>
+<ul>
+<li>"Create a new git repository for this project"</li>
+<li>"Install the Chrome DevTools MCP" (then type <code>/exit</code> and restart)</li>
+<li>"Deploy this to Vercel"</li>
+<li>"Fix this error: [paste error message]"</li>
+</ul>
+<h3 id="practice-projects">Practice Projects</h3>
+<p>Start simple, add complexity:</p>
+<ol type="1">
+<li><strong>Personal website</strong> - HTML/CSS, deploy to Vercel</li>
+<li><strong>Quiz game</strong> - JavaScript, local storage</li>
+<li><strong>Data dashboard</strong> - Load CSV, create charts</li>
+<li><strong>Email automation</strong> - Monitor inbox, auto-respond</li>
+</ol>
+<h3 id="keep-learning">Keep Learning</h3>
+<ul>
+<li><strong>Claude Code docs:</strong> <a href="https://code.claude.com/docs/en/overview">code.claude.com/docs</a></li>
+<li><strong>GitHub guides:</strong> <a href="https://docs.github.com/en/get-started">docs.github.com</a></li>
+<li><strong>Vercel docs:</strong> <a href="https://vercel.com/docs">vercel.com/docs</a></li>
+<li><strong>MDN Web Docs:</strong> <a href="https://developer.mozilla.org">developer.mozilla.org</a> (HTML/CSS/JS reference)</li>
+</ul>
+<hr />
+<h2 id="quick-reference-card">Quick Reference Card</h2>
+<h3 id="start-ai-coding-type-in-terminal">Start AI Coding (type in terminal)</h3>
+<ul>
+<li><code>claude</code> → Start Claude Code</li>
+<li><code>claude --dangerously-skip-permissions</code> → YOLO mode</li>
+<li><code>codex --yolo</code> → Codex YOLO mode</li>
+</ul>
+<h3 id="navigate-before-ai-is-running">Navigate (before AI is running)</h3>
+<ul>
+<li><code>cd folder</code> → Go to folder</li>
+<li><code>cd ..</code> → Go back</li>
+<li><code>pwd</code> → Where am I?</li>
+<li><code>ls</code> → What's here?</li>
+<li><code>TAB</code> → Autocomplete!</li>
+</ul>
+<h3 id="tell-the-ai-once-running">Tell The AI (once running)</h3>
+<ul>
+<li>"Commit my changes to GitHub"</li>
+<li>"Push to GitHub for backup"</li>
+<li>"Undo my last change"</li>
+<li>"Deploy this to Vercel"</li>
+</ul>
+<h3 id="slash-commands-inside-claude-code">Slash Commands (inside Claude Code)</h3>
+<ul>
+<li><code>/help</code> → Show commands</li>
+<li><code>/init</code> → Create CLAUDE.md</li>
+<li><code>/compact</code> → Save memory</li>
+<li><code>/clear</code> → Start fresh</li>
+<li><code>/cost</code> → Token usage</li>
+<li><code>/exit</code> → Exit (needed after installing MCP)</li>
+</ul>
+<h3 id="remember">Remember</h3>
+<ul>
+<li>Tell AI to commit before risky changes (you can always go back!)</li>
+<li>Never put API keys in code pushed to GitHub</li>
+<li>Just tell the AI what you want - that's what it's for!</li>
+</ul>
+<hr />
+<h2 id="official-documentation-links">Official Documentation Links</h2>
+<table>
+<colgroup>
+<col style="width: 62%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude Code Docs</td>
+<td><a href="https://code.claude.com/docs/en/overview">code.claude.com/docs</a></td>
+</tr>
+<tr>
+<td>Claude Code CLI Reference</td>
+<td><a href="https://code.claude.com/docs/en/cli-reference">cli-reference</a></td>
+</tr>
+<tr>
+<td>Claude Code GitHub</td>
+<td><a href="https://github.com/anthropics/claude-code">github.com/anthropics/claude-code</a></td>
+</tr>
+<tr>
+<td>OpenAI Codex</td>
+<td><a href="https://github.com/openai/codex">github.com/openai/codex</a></td>
+</tr>
+<tr>
+<td>Codex CLI Reference</td>
+<td><a href="https://developers.openai.com/codex/cli/reference/">developers.openai.com</a></td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td><a target="_blank" rel="noopener" href="https://github.com">github.com</a></td>
+</tr>
+<tr>
+<td>Vercel</td>
+<td><a target="_blank" rel="noopener" href="https://vercel.com">vercel.com</a></td>
+</tr>
+<tr>
+<td>Node.js</td>
+<td><a target="_blank" rel="noopener" href="https://nodejs.org">nodejs.org</a></td>
+</tr>
+<tr>
+<td>MCP Protocol</td>
+<td><a href="https://modelcontextprotocol.io">modelcontextprotocol.io</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>You did it!</strong> Now go build something. Start simple, ask AI for help, and keep practicing.</p>
+<p><em>refurbed AI & Automation Workshop by Franz Enzenhofer</em></p>
+</body>
+</html>
